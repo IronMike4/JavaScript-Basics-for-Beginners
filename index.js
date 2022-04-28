@@ -1,29 +1,16 @@
 
-// Logical AND (&&)
-// Returns TRUE if both operands are TRUE
-// console.log(false && true);
+// Falsy (false)
+// undefined
+// null 
+// 0
+// false
+// ''
+// NaN
 
+// Anything that is not Falsy --> Truthy
 
-// let highIncome = true;
-// let goodCreditScore = true;
-// let eligibleForLoan = highIncome && goodCreditScore;
+let userColor = undefined;
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
 
-// console.log(eligibleForLoan);
-
-
-// Logical OR (||)
-// Returns TRUE if one of the operands is TRUE
-// let highIncome = false;
-// let goodCreditScore = true;
-// let eligibleForLoan = highIncome || goodCreditScore;
-
-// console.log(eligibleForLoan);
-
-// Logical NOT (!)
-let highIncome = false;
-let goodCreditScore = false;
-let eligibleForLoan = highIncome || goodCreditScore;
-console.log('Eligible', eligibleForLoan);
-
-let applicationRefused = !eligibleForLoan;
-console.log('Appliction Refused', applicationRefused);
+console.log(currentColor);
