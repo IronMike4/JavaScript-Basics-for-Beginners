@@ -1,9 +1,9 @@
 
-// Strict Equality operators (Same type and value)
-// console.log(1 === 1);
-// console.log('1' === 1);
+// If a customer has more than 100 points, 
+// they are a 'gold' customer, otherwise ,
+// they are a 'silver customer.
 
-// Loose Equality operators
-console.log(1 == 1);
-console.log('1' == 1);
-console.log(true == 1);
+let points = 65;
+let type = points > 100 ? 'gold' : 'silver';
+
+console.log(type);
