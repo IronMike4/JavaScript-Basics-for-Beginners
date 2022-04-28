@@ -1,14 +1,12 @@
 
-let x = 10;
+let x = 1;
 
-// Both lines equal
-// X++;
-// x = X + 1
+// Relational operators
+console.log(x > 0);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x <= 1);
 
-// Both lines equal
-x = x + 5;
-x += 5;
-
-// Both lines equal
-x = x * 3;
-x *= 3;
+// Equality operators
+console.log(x === 1);
+console.log(x !== 1);
