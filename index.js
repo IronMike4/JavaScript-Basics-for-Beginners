@@ -1,12 +1,9 @@
 
-let x = 1;
+// Strict Equality operators (Same type and value)
+// console.log(1 === 1);
+// console.log('1' === 1);
 
-// Relational operators
-console.log(x > 0);
-console.log(x >= 1);
-console.log(x < 1);
-console.log(x <= 1);
-
-// Equality operators
-console.log(x === 1);
-console.log(x !== 1);
+// Loose Equality operators
+console.log(1 == 1);
+console.log('1' == 1);
+console.log(true == 1);
