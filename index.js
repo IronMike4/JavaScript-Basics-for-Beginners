@@ -1,6 +1,3 @@
-let name = 'Mike';
-console.log(name);
-
-let firstName = 'Mike';
-let lastName = 'Mahachi';
-console.log(firstName + ' ' + lastName);
+const interestRate = 0.3;
+//interestRate = 1;
+console.log(interestRate);
