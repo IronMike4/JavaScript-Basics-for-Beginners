@@ -1,21 +1,14 @@
 
 let x = 10;
-let y = 3;
 
-// console.log(x + y);
-// console.log(x - y);
-// console.log(x * y);
-// console.log(x / y);
-// console.log(x % y);
-// console.log(x ** y);
+// Both lines equal
+// X++;
+// x = X + 1
 
+// Both lines equal
+x = x + 5;
+x += 5;
 
-// Increment (++)
-// console.log(++x);
-// console.log(x++);
-// console.log(x);
-
-// Decrement (--)
-// console.log(--x);
-console.log(x--);
-console.log(x);
+// Both lines equal
+x = x * 3;
+x *= 3;
