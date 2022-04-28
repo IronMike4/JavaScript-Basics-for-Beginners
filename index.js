@@ -1,27 +1,17 @@
 
-// 1 = 00000001
-// 2 = 00000010
-// 3 = 00000011
-// R = 00000000
+// Hour 
+// If hour is between 6am and 12pm : Good morning!
+// If it is between 12pm and 6pm : Good afternoon!
+// Otherwise Gooe evening!
 
-// console.log(1 | 2);  // Bitwise OR
-// console.log(1 & 2);  // Bitwise AND
+let hour  = 19;
 
+if ( hour >= 6 && hour < 12){
+    console.log('Good morning');
+}
 
-// Read, Write, Execute
-// 00000100
-// 00000110
-// 00000111
-
-const readPermission = 4;
-const writePermission = 2;
-const executePermission = 1;
-
-let myPermission = 0; 
-myPermission = myPermission | readPermission | writePermission;
-console.log(myPermission);
-
-let message = 
-(myPermission & readPermission) ? 'yes': 'no';
-
-console.log(message);
+else if(hour > 12 && hour <= 18){
+    console.log('Good afternoon');
+}
+else
+console.log('Good evening');
