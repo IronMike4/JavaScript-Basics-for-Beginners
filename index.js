@@ -7,8 +7,15 @@ for (let i = 5; i >= 1; i--)
 }
 
 
+// let i = 0;
+// while (i <= 5){
+//     if (i % 2 !== 0) console.log(i);
+//     i++;
+// }
+
+// do while loop
+
 let i = 0;
-while (i <= 5){
-    if (i % 2 !== 0) console.log(i);
+do{ if (i % 2 !== 0) console.log(i)
     i++;
-}
+ } while(i <= 5);
